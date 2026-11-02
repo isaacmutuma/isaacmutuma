@@ -19,7 +19,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Child-detector skin-tone audit** <br><sub>paper in preparation</sub> | Preregistered audit of five child detectors of the kind used to filter children out of text-to-image training data. Tests whether they miss Black children more often than White children, and why. The pilot points to age over-estimation of Black teenagers. | PyTorch · OpenCLIP · MiVOLO · Qwen2-VL · statsmodels |
+| **Child-detector skin-tone audit**| Preregistered audit of five child detectors of the kind used to filter children out of text-to-image training data. Tests whether they miss Black children more often than White children, and why. The pilot points to age over-estimation of Black teenagers. | PyTorch · OpenCLIP · MiVOLO · Qwen2-VL · statsmodels |
 | **[Re-ID shortcut audit](https://github.com/isaacmutuma/reid-shortcut-audit)** | Mechanistic audit of shortcut learning in a ResNet50 person re-ID baseline on Market-1501. Linear probes check whether the embedding encodes clothing colour, controlled perturbations test whether the model relies on it, and targeted interventions try to remove that reliance. | PyTorch · Torchreid · scikit-learn |
 | **[Federated subset scanning](https://github.com/isaacmutuma/federated-subset-scanning-pads)** | Privacy-preserving, federated anomaly detection for Parkinson's disease screening from smartwatch movement data (PADS). Healthy volunteers share only differentially private histograms of a PatchTST encoder's activations, and each subject is scored against them with subset scanning. | PyTorch · PatchTST · scikit-learn · differential privacy |
 
